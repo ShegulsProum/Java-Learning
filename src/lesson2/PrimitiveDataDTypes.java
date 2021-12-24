@@ -12,7 +12,7 @@ public class PrimitiveDataDTypes {
 
         int i1 = 500;
 
-        long l1 = 1_000_000L;
+        long l1 = 1000000L;
         long l2 = 51L;
 
         float f1 = 3.14f;
@@ -40,7 +40,9 @@ public class PrimitiveDataDTypes {
 
         int a4 = 074; // восьмеричная
 
-        int a5 = 0B111111; //
+        int a5 = 0x3c; // шестнадцатеричная (Кейс не важен)
+
+        int a6 = 1_000_000; // неважно где и сколько подчёркиваний
 
         System.out.println(c6);
 
